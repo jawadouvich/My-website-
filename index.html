@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAYO ACCESSORIES | جودة وأداء</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="bg-green-500 text-white text-center py-2 text-sm font-bold">
+    توصيل مجاني لجميع الطلبات داخل المدينة حتى نهاية الشهر!
+  </div>
+
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <div class="flex items-center space-x-4 space-x-reverse">
+      <img src="logo.png" alt="JAYO Logo" class="h-12">
+      <h1 class="text-2xl font-bold text-red-600">JAYO ACCESSORIES</h1>
+    </div>
+    <nav class="space-x-4 space-x-reverse">
+      <a href="#products" class="text-gray-700 hover:text-red-600">منتجاتنا</a>
+      <a href="#order" class="text-gray-700 hover:text-red-600">طلب قطعة</a>
+      <a href="#about" class="text-gray-700 hover:text-red-600">من نحن</a>
+      <a href="#contact" class="text-gray-700 hover:text-red-600">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <section class="bg-red-600 text-white text-center py-16 px-4 relative">
+    <h2 class="text-4xl font-bold mb-4">جودة أصلية لسيارتك</h2>
+    <p class="text-lg mb-6">نوفر لك جميع أنواع قطع الغيار الأصلية مع ضمان وأفضل سعر</p>
+    <a href="#order" class="bg-white text-red-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200">اطلب الآن</a>
+  </section>
+
+  <section class="py-12 px-4 grid md:grid-cols-4 gap-6 text-center">
+    <div>
+      <h3 class="text-xl font-bold mb-2">قطع أصلية</h3>
+      <p>منتجات مضمونة 100% من أفضل الموردين.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-2">شحن سريع</h3>
+      <p>توصيل لجميع المدن خلال 48 ساعة.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-2">دعم فني</h3>
+      <p>فريق متخصص لمساعدتك في اختيار القطعة المناسبة.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-2">ضمان</h3>
+      <p>ضمان استبدال على جميع المنتجات.</p>
+    </div>
+  </section>
+
+  <section id="products" class="bg-white py-12 px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">أشهر المنتجات</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-100 p-4 rounded-lg shadow">
+        <img src="https://via.placeholder.com/300x200" alt="فلتر زيت" class="mb-4 rounded">
+        <h3 class="text-xl font-bold mb-2">فلتر زيت</h3>
+        <p>فلتر عالي الجودة يناسب جميع أنواع السيارات.</p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg shadow">
+        <img src="https://via.placeholder.com/300x200" alt="شمعات إشعال" class="mb-4 rounded">
+        <h3 class="text-xl font-bold mb-2">شمعات إشعال</h3>
+        <p>تعزز أداء المحرك وتطيل عمره.</p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg shadow">
+        <img src="https://via.placeholder.com/300x200" alt="بطارية سيارة" class="mb-4 rounded">
+        <h3 class="text-xl font-bold mb-2">بطارية سيارة</h3>
+        <p>بطاريات قوية تدوم طويلاً بضمان.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="py-12 px-4 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-6">طلب قطعة</h2>
+    <div class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow">
+      <form>
+        <label class="block mb-2 font-bold">الاسم الكامل</label>
+        <input type="text" class="w-full border p-2 rounded mb-4" required>
+        <label class="block mb-2 font-bold">رقم الهاتف</label>
+        <input type="tel" class="w-full border p-2 rounded mb-4" required>
+        <label class="block mb-2 font-bold">نوع السيارة والموديل</label>
+        <input type="text" class="w-full border p-2 rounded mb-4" required>
+        <label class="block mb-2 font-bold">اسم القطعة المطلوبة</label>
+        <input type="text" class="w-full border p-2 rounded mb-4" required>
+        <label class="block mb-2 font-bold">ملاحظات إضافية</label>
+        <textarea class="w-full border p-2 rounded mb-4" rows="3"></textarea>
+        <button type="submit" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">إرسال الطلب</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="about" class="py-12 px-4 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center mb-6">من نحن</h2>
+    <p class="max-w-3xl mx-auto text-center">JAYO ACCESSORIES هي شركة متخصصة في توفير قطع غيار السيارات بجودة عالية وخدمة احترافية. نهدف إلى تقديم أفضل تجربة للعملاء عبر منصة سهلة وسريعة، وشحن سريع لجميع المدن.</p>
+  </section>
+
+  <section id="contact" class="bg-red-600 text-white py-12 px-4">
+    <h2 class="text-3xl font-bold text-center mb-6">تواصل معنا</h2>
+    <p class="text-center mb-6">هل تحتاج للمساعدة أو تبحث عن قطعة معينة؟ تواصل معنا عبر النموذج أو الهاتف.</p>
+    <div class="max-w-md mx-auto bg-white text-gray-800 p-6 rounded-lg shadow">
+      <form>
+        <label class="block mb-2 font-bold">الاسم</label>
+        <input type="text" class="w-full border p-2 rounded mb-4" required>
+        <label class="block mb-2 font-bold">رقم الهاتف</label>
+        <input type="tel" class="w-full border p-2 rounded mb-4" required>
+        <label class="block mb-2 font-bold">الرسالة</label>
+        <textarea class="w-full border p-2 rounded mb-4" rows="4" required></textarea>
+        <button type="submit" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">إرسال</button>
+      </form>
+    </div>
+  </section>
+
+  <a href="https://wa.me/966500000000" target="_blank" class="fixed bottom-4 left-4 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-600 flex items-center space-x-2 space-x-reverse">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10a9 9 0 0115.91-6.55M21 21l-5.2-5.2" />
+    </svg>
+    <span>تواصل عبر واتساب</span>
+  </a>
+
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>© 2025 JAYO ACCESSORIES. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
